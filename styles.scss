@@ -42,9 +42,20 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5%;
     .input-label{
         color: white;
         position: absolute;
+    }
+    #addButton{
+    display: none;
+    position: absolute;
+    right: 21.67%;
+    padding: 5px;  
+    margin: 10px;  
+    background: #E68181;
+    border: none;
+    border-radius: 20%;
     }
 }
 #user__textBox{
@@ -54,3 +65,15 @@ p{
     margin: 10px;
     width: 60%;
 }
+#users__tasks{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 18%;
+    background-color: #6C6A7C;
+    height: 200px;
+    margin: 0 18%;
+    flex-direction: column;
+    display: none;
+}
+
