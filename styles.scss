@@ -36,8 +36,16 @@ h1{
 #input__container{
     display: flex;
     justify-content: center;
-    #input-label{
-        position: absolute;
+    align-items: center;
+    .input-label{
         color: white;
-        }
+        position: absolute;
+    }
+}
+#user__textBox{
+    border-style: dashed;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
 }
