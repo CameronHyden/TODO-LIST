@@ -33,6 +33,11 @@ h1{
     margin-bottom: 10%;
     color: white;
 }
+p{
+    text-align: center;
+    color: rgba(108, 106, 124, 1);
+    display: none;
+}
 #input__container{
     display: flex;
     justify-content: center;
@@ -48,8 +53,4 @@ h1{
     padding: 10px;
     margin: 10px;
     width: 60%;
-}
-#users__page{
-    color: white;
-    display: none;
 }
