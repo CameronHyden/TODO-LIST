@@ -1,0 +1,43 @@
+@use "./variable.scss" as*;
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(43, 42, 51, 1);
+    font-family: $primary-font;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+}
+.buttons{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15%;
+    border: none;
+    background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+    box-shadow: 0 10px 40px #6b3838;
+}
+.buttons:hover{
+    background-image: linear-gradient(180deg, #e2c1c1, #ea8282);
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: white;
+}
+#input__container{
+    display: flex;
+    justify-content: center;
+    #input-label{
+        position: absolute;
+        color: white;
+        }
+}
