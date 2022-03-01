@@ -3,7 +3,7 @@ const resetButton = document.querySelectorAll(".buttons");
 const inputLabel = document.querySelector(".input-label");
 const homepageInfo = document.querySelector("#users__text");
 const homeTitle = document.querySelector("#Homepage__message");
-const usersTasks = document.querySelectorAll("#users__tasks");
+const usersTasks = document.querySelectorAll("#tasks__heading");
 const addTaskButton = document.querySelector("#addButton");
 
 
@@ -24,6 +24,14 @@ const newScreen = (event) =>{
         }
         
     }
+}
+
+//need to grab the value of what the user has inputted
+//when button is hit 
+//transfer that value to a checklist below
+
+const addingTask = (event) =>{
+
 }
 
 

@@ -41,6 +41,7 @@ p {
   text-align: center;
   color: #6c6a7c;
   display: none;
+  margin: 0 15%;
 }
 
 #input__container {
@@ -72,14 +73,8 @@ p {
   width: 60%;
 }
 
-#users__tasks {
+#tasks__heading {
   color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 18%;
-  background-color: #6C6A7C;
-  height: 200px;
-  margin: 0 18%;
-  flex-direction: column;
+  margin: 0 21%;
   display: none;
 }
