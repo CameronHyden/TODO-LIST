@@ -54,3 +54,8 @@ h1 {
   margin: 10px;
   width: 60%;
 }
+
+#users__page {
+  color: white;
+  display: none;
+}
